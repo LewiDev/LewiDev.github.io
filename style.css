@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: rgba(7,10,27,255);
+    font-family: Arial, Helvetica, sans-serif;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+header {
+    background: rgba(7,10,27,255);
+    height: 105px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+header .logo a {
+    background-image: url("images/logo.png");
+    background-position: center;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 150px;
+    position: relative;
+    top: -65px;
+    text-indent: -99999px;
+    width: 150px;
+    margin-top: 30px;
+}
+
+.twitter2 {
+    display: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+  
+nav li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.mobile li {
+    display: none;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-weight: bolder;
+}
+
+.line, .line2 {
+    background: rgba(248,11,10,255);
+    height: 20px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+}
+
+#twitch-embed {
+    padding: 50px 0;
+    margin: auto;
+
+}
+
+.discord {
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.twitter {
+    padding: 50px 0;
+    margin: 0 auto;
+    
+}
+
+.aboutus {
+    background-image: url("images/hero.png");
+    background-size: 100%;
+    background-position: center;
+}
+
+.aboutus h1 {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    margin-left: -50px;
+    font-size: 50px;
+}
+
+.aboutus p {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+@media screen and (max-width: 1080px) {
+    #twitch-embed {
+        display: none;
+    }
+    .twitter {
+        display: none;
+    }
+    .discord {
+        display: none;
+    }
+    .line2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1919px) {
+    .discord {
+        display: none;
+    }
+    .twitter {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 605px) {
+    nav {
+        display: none;
+    }
+    header {
+        height: 40px;
+    }
+    .mobile ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none; 
+    }
+      
+    .mobile li {
+        display: inline-block;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+}
+    
+
+
+
+  

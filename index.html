@@ -1,40 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Artisan Bakery</title>
-    <link rel="stylesheet" href="main.css">
+    <title>Grim Syndicate</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav><ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li class="mobile"><a href="locations.html">Locations</a></li>
-            <li class="mobile"><a href="contact.html">Contact</a></li>
-            <li class="logo"><a href="index.html">Artisan Bakery Logo</a></li>
-            <li class="desktop"><a href="locations.html">Locations</a></li>
-            <li class="desktop"><a href="contact.html">Contact</a></li>
-        </ul></nav>
-        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="logo"><a href="index.html">TheGrimSyndicate Logo</a></li>
+                <li><a href="valorant.html">Valorant</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="valorant.html">Valorant</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </header>
-    <section class="features">
-        <figure>
-            <img src="images/hero.jpg" alt="Amazing cakes made by Artisan Bakery">
-            <figcaption>Amazing cakes</figcaption>
-        </figure>
-        <figure>
-            <img src="images/breakfast.jpg" alt="Amazing coffee made by Artisan Bakery">
-            <figcaption>Amazing Coffee</figcaption>
-        </figure>
-        <figure>
-            <img src="images/bread.jpg" alt="Amazing bread made by Artisan Bakery">
-            <figcaption>Amazing bread</figcaption>
-        </figure>
+    <div class="line"></div>
+
+    <div class="features">
+
+        <div class="discord">
+            <iframe src="https://discord.com/widget?id=923780608273051708&theme=dark" width="300" height="480" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </div>
+
+        <div id="twitch-embed"></div>
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+        <script type="text/javascript">
+            new Twitch.Embed("twitch-embed", {
+            width: 1080,
+            height: 480,
+            channel: "TheGrimSyndicate",
+            layout: "video",
+            theme: "dark",
+            // Only needed if this page is going to be embedded on other websites
+            parent: ["embed.example.com", "othersite.example.com"]
+        });
+        </script>
+
+        <div class="twitter">
+            <a class="twitter-timeline" data-theme="dark" width="300" height="480" href="https://twitter.com/thegrimsyn"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
+    </div>
+
+    <div class="line2"></div>
+
+    <section class="aboutus">
+        <h1>About Us</h1>
+        <p><strong>The Grim Syndicate</strong>, an upcoming esports team and community <br> founded by both <a href="#">Yuno</a> and <a href="">AlluuX</a>.
+         GrimSyn Strives for dedication and results <br> both in competitve play an overall management. <br>
+        On the <strong>8/8/22</strong> GrimSyn announced there entry to the competitve scene <br> players still yet to be announced!
+        <br><br>GrimSyn also offer <strong>Weekly</strong> valorant tournaments ranging from 1v1 to 5v5, all with mix of prizes :) <br>
+        So what are you waiting for join the discord below! <br><br></p>
+        <a class="discord-link" href="https://discord.com/invite/grimsyn">Join Here</a>      
     </section>
-    <footer>
-        222 Main Street Edwardsville, IL • 555-555-5555 • us@me.com
-    </footer>
 
+    
 
+    
 </body>
 </html>
