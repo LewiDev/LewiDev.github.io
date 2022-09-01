@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #0f0d12;
     color: white;
-    background: rgba(7,10,27,255);
     font-family: Arial, Helvetica, sans-serif;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
@@ -71,6 +71,7 @@ header a {
 }
 
 footer {
+    background-color: rgba(7,10,27,255);
     display: flex;
     flex-direction: row;
     height: 300px;
@@ -140,8 +141,50 @@ footer .socials div a {
     max-height: 300px;
     max-width: 300px;
     margin-top: -25px;
-    margin-left: 350px;
+    margin-left: 550px;
 }
+
+.flogo h3 {
+    text-align: right;
+    margin-left: 500px;
+}
+
+.footer2 img {
+    margin-top: -300px;
+    width: 100%;
+    
+}
+
+.middle {
+    height: 1000px;
+    background-color: aqua;
+}
+
+.footer2 {
+    max-height: 100px;
+}
+
+.footer2 .bottom {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.footer2 a {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    font-size: 12px;
+    color: #ccc;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footer2 .rights {
+    left: 1650px;
+}
+
 
 
 @media screen and (max-width: 605px) {
