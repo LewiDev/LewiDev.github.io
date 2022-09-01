@@ -185,6 +185,10 @@ footer .socials div a {
     left: 1650px;
 }
 
+.test {
+    left: 10px;
+}
+
 
 
 @media screen and (max-width: 605px) {
