@@ -35,10 +35,6 @@ header .logo a {
     margin-top: 30px;
 }
 
-.twitter2 {
-    display: none;
-}
-
 nav ul {
     margin: 0;
     padding: 0;
@@ -63,150 +59,90 @@ header a {
     font-weight: bolder;
 }
 
-.line, .line2 {
-    background: rgba(248,11,10,255);
-    height: 20px;
-    width: auto;
-    margin: 0;
-    padding: 0;
+
+
+.tab {
+    color: #f0f;
 }
 
-.features {
+.tab2 {
+    margin-left: 500px;
+    color: #f0f;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    font-family: Rajdhani,sans-serif;
+}
+
+
+footer .socials {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .socials div {
     display: flex;
     flex-direction: row;
 }
 
-#twitch-embed {
-    padding: 50px 0;
-    margin: auto;
+footer .socials div img {
+    margin-top: 1px;
+    margin-right: 5px;
+    margin-left: 35px;
+    max-width: 15px;
+    max-height: 15px;
+    filter: invert(97%) sepia(4%) saturate(11%) hue-rotate(21deg) brightness(87%) contrast(87%);
+}
 
+
+footer .socials div h3 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+footer .socials div a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 40px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.abus {
+    margin-left: 33px;
+}
+
+.part {
+    margin-left: 33px;
+}
+
+.fstaff {
+    margin-left: 33px;
+}
+
+.move {
+    margin-left: 40px;
 }
 
 .discord {
-    padding: 50px 0;
-    margin: 0 auto;
+    max-height: 40px;
+    max-width: 40px;
 }
 
-.twitter {
-    padding: 50px 0;
-    margin: 0 auto;
-    
+.flogo img {
+    max-height: 300px;
+    max-width: 300px;
+    margin-top: -25px;
+    margin-left: 350px;
 }
 
-
-
-.aboutus h1 {
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-    margin-left: -50px;
-    font-size: 50px;
-}
-
-.aboutus p {
-    margin-left: -50px;
-    padding-top: 30px;
-    text-align: center;
-    font-size: 30px;
-
-    background: transparent;
-}
-
-.aboutus h2 {
-    margin-left: -50px;
-    text-align: center;
-    font-size: 40px;
-    color: rgb(114,137,218);
-    text-decoration: none;
-    padding-bottom: 20px;
-    margin-bottom: 0;
-}
-
-.staff {
-    background-image: url("images/hero.png");
-    background-size: 100%;
-    background-position: center;
-    padding: 0px;
-    margin: 0;
-}
-
-.staff h1 {
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-    margin-left: -50px;
-    font-size: 50px;
-}
-
-.staff-members {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.staff-members .member {
-    display: flex;
-    flex-direction: row;
-    background: white;
-    border-radius: 50px;
-    color: black;
-    margin: auto;
-    margin-bottom: 50px;
-    width: 800px;
-    height: 100px;
-}
-
-
-.staff-members .member img {
-    border-radius: 50%;
-    margin-top: 10px;
-    margin-left: 10px;
-    max-width: 80px;
-    max-height: 80px;
-}
-
-.staff-members .member .desc {
-    width: 700px;
-    margin-left: 10px;
-}
-.staff-members .member .desc h3 {
-    margin: 5px 0 2px 0;
-    font-weight: 900;
-}
-
-.staff-members .member .desc p {
-    margin: auto 10px 0 0 ;
-    font-size: 15px;
-    overflow: hidden;
-    text-align: center;
-    max-width: 680px;
-    max-height: 50px;
-}
- 
-
-@media screen and (max-width: 1080px) {
-    #twitch-embed {
-        display: none;
-    }
-    .twitter {
-        display: none;
-    }
-    .discord {
-        display: none;
-    }
-    .line2 {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1919px) {
-    .discord {
-        display: none;
-    }
-    .twitter {
-        display: none;
-    }
-}
 
 @media screen and (max-width: 605px) {
     nav {
